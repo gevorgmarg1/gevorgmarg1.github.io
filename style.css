@@ -3,7 +3,21 @@ body{
 	background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 	color: white;
 	font-family: "Times New Roman";
+	background-repeat: repeat; 
+  animation: moveIt 20s linear infinite;
+  width: 100%;
+  height: 100%; 
 }
+
+@keyframes moveIt {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0% 100%; 
+  }
+}
+
 a{
 	color: white;
 }
