@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   ssr: false,
   head: {
     titleTemplate: 'Ethics Final Project',
